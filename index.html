@@ -21,13 +21,14 @@ ol{
   padding:20px;
   border: 2px dotted red ;
   font-family: Arial;
-
+  
 }
 img{
   padding:2px;
   border: 2px solid blue ;
 }
-
+#naan {width: 60;float:right;height:60}
+#loc{width:60;float:left;height:60}
 </style>
   <meta charset="utf-8">
   <!-- What else should be in the head? -->
@@ -44,12 +45,12 @@ img{
         Fremont,Ca 94538</h4>
     </div>
   </header>
-  <div align=center>
-  <a href= "index.html">Home</a>
-  <a href = "menu.html">Menu</a>
-    <a href = "Location.html">Location</a>
-
-</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="catering.html">Catering</a>
+    <a href="bevarages.html">Bevarages</a> |
+    <a href="bakery.html">Bakery</a>
+  </nav>
 <br>
 <section>
 <div class="container">
@@ -66,7 +67,7 @@ img{
                   <h1 align=center>Menu</h1>
                   <ul>
                     <b><p>Appetizers</p></b>
-                    <img src = item1.jpeg alt = "Chicken 65" class = "image" align="right" height="60" width="60">
+                    <img src = item1.jpeg alt = "Chicken 65" class = "image" align="right" height="125" width="125">
                     <!--- I got this image from "https://www.google.com/search?q=chicken+65+image&safe=active&tbm=isch&source=iu&ictx=1&fir=AJnBDaLrR7wlwM%253A%252CuTcsd8MZrGf7PM%252C_&usg=AFrqEzcIQzumYLzN30sQXncYvpaHgHJHYQ&sa=X&ved=2ahUKEwjyt5Oa5aHdAhWIKXwKHapCCfoQ9QEwAXoECAQQBg#imgrc=AJnBDaLrR7wlwM:"-->
                   </ul>
                   <ol>
@@ -92,7 +93,7 @@ img{
                       <li><i>Pulav</i></li>
                     </ol>
                     <ul><b><p>Naan</p></b></ul>
-                    <img src = item2.jpg alt = "Garlic Butter Naan" class = "image" align="right" height="60" width="60">
+                    <img src = item2.jpg alt = "Garlic Butter Naan" class = "image" id = "naan" height="125" width="125"><p> naan is the best food for dinner </p>
                     <!--"I got this image from www.google.com" -->
                     <ol>
                       <li><i>Garlic</i></li>
@@ -112,7 +113,7 @@ img{
               </section>
               <section>
 <h1 align=center> Location </h1>
-<img src= "Location.jpg" alt="My Location" height="50" width="50">
+<img src= "Location.jpg" align="left"id = "loc" alt="My Location" height="120" width="120"><p> My Location(Floating from left to right)</p>
 <!--"I shot this picture from phone" -->
 <br>
   <font face="sans serif">3431 High Cmns Fremont CA 94538</font>
